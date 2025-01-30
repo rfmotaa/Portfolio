@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1A1A;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+a {
+    all: unset; 
+    cursor: pointer; 
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 32px;
+}
+
+a:hover {
+    color: #5A70FF;
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 68vh;
+    background-image: url(/assets/Aboutme.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+}
+
+.mainText {
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 32px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.codeSvg {
+    width: 100px;
+}

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1A1A;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+a {
+    all: unset; 
+    cursor: pointer; 
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 32px;
+}
+
+a:hover {
+    color: #5A70FF;
+}
+
+.photoContainer {
+    width: 100vw;
+    height: 68vh;
+    background-image: url(/assets/Home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.textsContainer {
+    padding: 24px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 92px;
+    position: relative;
+    left: 96px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 48px;
+    position: relative;
+    left: 128px;
+}
+
+.imagesContainer{
+    padding-top: 16px;
+    position: relative;
+    left: 55%;
+}
+
+.techImages {
+    display: flex;
+    gap: 12px;
+    padding-left: 24px;
+}
+
+.topTech {
+    position: relative;
+    bottom: 24px;
+}
+
+.lowTech {
+    position: relative;
+    top: 24px;
+}
+
+.tech, .topTech, .lowTech {
+    width: 4%;
+}
+
+.cilindroImage {
+    width: 20%;
+    height: 20%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.codeSvg {
+    width: 100px;
+}

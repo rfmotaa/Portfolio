@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1A1A;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+a {
+    all: unset; 
+    cursor: pointer; 
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 32px;
+}
+
+a:hover {
+    color: #5A70FF;
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 55vh;
+    background-image: url(/assets/Contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.mainText {
+    font-weight: 900;
+    font-size: 92px;
+    position: relative;
+    left: 64px;
+    top: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.leftNetworks, .rightNetworks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.network {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.techSvg {
+    width: 80px;
+}
+
+.emailText {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.subText {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.codeSvg {
+    width: 100px;
+}
